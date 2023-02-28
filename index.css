@@ -1,0 +1,56 @@
+.main {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.clock {
+    border-radius: 50%;
+    border: 5px solid #130f40;
+    width: 100%;
+    height: 100%;
+    margin: 200px auto 100px auto; 
+    box-shadow: 1px 1px 30px 5px #dff9fb;
+    position: relative;
+}
+
+.pointer {
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all .05s;
+}
+
+.seconds {
+    right: 50%;
+    width: 50%;
+    height: 3px;
+    background-color: #7ed6df;
+}
+
+.minutes {
+    right: 50%;
+    width: 45%;
+    height: 5px;
+    background-color: #30336b;
+}
+
+.hours {
+    right: 50%;
+    width: 35%;
+    height: 5px;
+    background-color: #30336b;
+}
+
+.time {
+    border: 1px solid #7ed6df;
+    box-shadow: 0px 0px 30px 3px #c7ecee;
+    border-radius: 10px;
+    background-color: #7ed6df;
+    color: #130f40;
+    font-size: 30px;
+    width: max-content;
+    padding: 20px 40px;
+    margin: auto;
+}
